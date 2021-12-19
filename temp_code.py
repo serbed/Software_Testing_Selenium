@@ -40,3 +40,30 @@ def test_example(driver):
 
 
 
+""""  
+    l_sort.append('Tundra')
+    g = 2
+    if l_sort == l:
+        g=1
+    else:
+        g=0
+    print(g)
+"""
+
+"""        if zone_atr_int > 0:
+            rows_1[list_count].click()
+            list_count_sub = 0
+            l_sub = []
+            l_sub_sort = []
+            rows_2 = driver.find_elements_by_css_selector(".dataTable tr:not(.header) [name$='name]'][type=hidden]")
+            rows_2_len = len(driver.find_elements_by_css_selector(".dataTable tr:not(.header) [name$='name]'][type=hidden]"))
+            while (list_count_sub < rows_2_len):
+                country_2 = rows_2[list_count_sub].get_attribute("value")
+                l_sub.append(country_2)
+                l_sub_sort.append(country_2)
+                list_count_sub +=1
+            l_sub_sort.sort()
+            assert l_sub_sort == l_sub
+            driver.find_elements_by_css_selector("[name=cancel]")
+        else:
+            pass """

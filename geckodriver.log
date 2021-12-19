@@ -67,3 +67,52 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Pha
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1639853523457	geckodriver	INFO	Listening on 127.0.0.1:52121
+1639853526581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "--marionette" "--remote-debugging-port" "52122" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileSJWf4V"
+1639853532407	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileSJWf4V\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52122/devtools/browser/61de3cb2-7260-4e26-9904-e8e7831b09d9
+WebDriver BiDi listening on ws://localhost:52122
+1639853551996	Marionette	INFO	Listening on port 52128
+1639853552449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+1639853564080	Marionette	INFO	Stopped listening on port 52128
+1639853945489	geckodriver	INFO	Listening on 127.0.0.1:52561
+1639853948570	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "--marionette" "--remote-debugging-port" "52562" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileIyC6oA"
+1639853949960	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileIyC6oA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52562/devtools/browser/abeccc11-d79e-4cc5-b7e3-473ecd4770ea
+1639853955418	Marionette	INFO	Listening on port 52568
+WebDriver BiDi listening on ws://localhost:52562
+1639853955958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+1639853960157	Marionette	INFO	Stopped listening on port 52568
+[Parent 13260, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639853982510	geckodriver	INFO	Listening on 127.0.0.1:52654
+1639853985602	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "--marionette" "--remote-debugging-port" "52655" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileJwOeFU"
+1639853986325	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileJwOeFU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52655/devtools/browser/c0684c85-452b-43d2-affc-cba753f95744
+WebDriver BiDi listening on ws://localhost:52655
+1639853991616	Marionette	INFO	Listening on port 52661
+1639853991970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+1639853995360	Marionette	INFO	Stopped listening on port 52661
+[Parent 6244, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "DoHController: clear state and remove observers"
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 996: Error: Connection is not open.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

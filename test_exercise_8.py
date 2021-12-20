@@ -27,12 +27,12 @@ def test_example(driver):
 #Вцикле наполням пустые списки, в конце сравниваем их (к одному из списков в конце применяем сортировку по алфавиту)
     while (list_count < rows_len):
         rows_1 = driver.find_elements_by_css_selector(".row [href]:not([title])")
-        country = rows_1[list_count].get_attribute("outerText")
+        country = rows_1[list_count].text
         l.append(country)
         l_sort.append(country)
         zones = driver.find_elements_by_css_selector(".row>:nth-child(6n)")
         zone = zones[list_count]
-        zone_atr = zone.get_attribute("innerText")
+        zone_atr = zone.text
         zone_atr_int = int(zone_atr)
 #Если количество зон больше нуля, кликаем по ссылке, задаём списки и сравниваем их (к одному из списков в конце применяем сортировку по алфавиту):
         if zone_atr_int > 0:
@@ -43,11 +43,11 @@ def test_example(driver):
             rows_2 = driver.find_elements_by_css_selector(".dataTable tr:not(.header) [name$='name]'][type=hidden]")
             rows_2_len = len(driver.find_elements_by_css_selector(".dataTable tr:not(.header) [name$='name]'][type=hidden]"))
             while (list_count_sub < rows_2_len):
-                  country_2 = rows_2[list_count_sub].get_attribute("value")
+                  country_2 = rows_2[list_count_sub].text
                   l_sub.append(country_2)
-# Применим к одному из списков сортировку по алфавиту:
                   l_sub_sort.append(country_2)
                   list_count_sub +=1
+# Применим к одному из списков сортировку по алфавиту
             l_sub_sort.sort()
 # Сравниваем сортировку по алфавиту из браузера с сотрировкой, получившейся в результате sort():
             assert l_sub_sort == l_sub

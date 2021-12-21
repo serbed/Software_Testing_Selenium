@@ -24,9 +24,9 @@ def test_example(driver):
 #Зададим два пустых списка для сравнения
     l = []
     l_sort = []
+    rows_1 = driver.find_elements_by_css_selector(".row [href]:not([title])")
 #Вцикле наполням пустые списки, в конце сравниваем их (к одному из списков в конце применяем сортировку по алфавиту)
     while (list_count < rows_len):
-        rows_1 = driver.find_elements_by_css_selector(".row [href]:not([title])")
         country = rows_1[list_count].text
         l.append(country)
         l_sort.append(country)
@@ -40,10 +40,11 @@ def test_example(driver):
             list_count_sub = 0
             l_sub = []
             l_sub_sort = []
-            rows_2 = driver.find_elements_by_css_selector(".dataTable tr:not(.header) [name$='name]'][type=hidden]")
-            rows_2_len = len(driver.find_elements_by_css_selector(".dataTable tr:not(.header) [name$='name]'][type=hidden]"))
-            while (list_count_sub < rows_2_len):
-                  country_2 = rows_2[list_count_sub].text
+            rows_2 = driver.find_element_by_css_selector(".dataTable>tbody")
+            rows_tr = rows_2.find_elements_by_css_selector("tr>td:nth-child(3)")
+            rows_2_len = len(driver.find_elements_by_css_selector(".dataTable tr:not(.header)"))
+            while (list_count_sub < rows_2_len- 1):
+                  country_2 = rows_tr[list_count_sub].text
                   l_sub.append(country_2)
                   l_sub_sort.append(country_2)
                   list_count_sub +=1
@@ -54,6 +55,7 @@ def test_example(driver):
 # Находим кнопку выхода, кликаем по ней и переходим на более верзний уровень цикла, продолжаем идти по списку:
             btn = driver.find_element_by_css_selector("button[name=cancel]")
             btn.click()
+            rows_1 = driver.find_elements_by_css_selector(".row [href]:not([title])")
         else:
             pass
         list_count += 1

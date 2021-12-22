@@ -62,7 +62,16 @@ def test_example(driver):
     assert l == l_sort
 
 
-
+# Сравним цены
+    campaigns_ducks = driver.find_element_by_css_selector("#box-campaigns>.content>ul")
+    first_duck = campaigns_ducks.find_element_by_css_selector(" li")
+    regular_price = first_duck.find_element_by_css_selector(".regular-price").text
+    regular_price = regular_price.lstrip('$')
+    regular_price = int(regular_price)
+    campaign_price = first_duck.find_element_by_css_selector(".campaign-price").text
+    campaign_price = campaign_price.lstrip('$')
+    campaign_price = int(campaign_price)
+    assert  regular_price > campaign_price
 
 
 

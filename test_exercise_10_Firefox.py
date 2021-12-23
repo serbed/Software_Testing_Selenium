@@ -5,8 +5,8 @@ from selenium.webdriver.support import expected_conditions as EC
 
 @pytest.fixture
 def driver(request):
-    wd = webdriver.Chrome()
-    wd.implicitly_wait(2)
+    wd = webdriver.Firefox(firefox_binary="C:\\Program Files\\Mozilla Firefox\\firefox.exe")
+    wd.implicitly_wait(10)
     request.addfinalizer(wd.quit)
     return wd
 
@@ -31,7 +31,6 @@ def test_example(driver):
     regular_price_color = regular_price_color.lstrip('rgba(')
     regular_price_color = regular_price_color.split(',')
     regular_price_color = list(regular_price_color)
-    del regular_price_color[-1]
     regular_price_color = list(map(int, regular_price_color))
     assert regular_price_color[0] == regular_price_color[1] == regular_price_color[2]
 # Проверим что цена зачёркнута
@@ -44,14 +43,13 @@ def test_example(driver):
     campaign_price_color = campaign_price_color.lstrip('rgba(')
     campaign_price_color = campaign_price_color.split(',')
     campaign_price_color = list(campaign_price_color)
-    del campaign_price_color[-1]
     campaign_price_color = list(map(int, campaign_price_color))
     assert campaign_price_color[1] == 0 and campaign_price_color[2] == 0
 # Проверим что акционная цена жирная:
     campaign_price_text = first_duck.find_element_by_css_selector(".campaign-price").value_of_css_property("font-weight")
     campaign_price_text = int(campaign_price_text)
 # Для шрифтов, которые предоставляют только normal и bold начертания, 100-500 normal, и 600-900 bold.
-    assert campaign_price_text > 600 and campaign_price_text < 900
+    assert campaign_price_text > 599 and campaign_price_text < 901
 # Акционная цена крупнее, чем обычная
 # Найдем площадь для акционной цены
     campaign_price_size = first_duck.find_element_by_css_selector(".campaign-price").size
@@ -87,7 +85,6 @@ def test_example(driver):
     regular_price_color = regular_price_color.lstrip('rgba(')
     regular_price_color = regular_price_color.split(',')
     regular_price_color = list(regular_price_color)
-    del regular_price_color[-1]
     regular_price_color = list(map(int, regular_price_color))
     assert regular_price_color[0] == regular_price_color[1] == regular_price_color[2]
 # Проверим что цена зачёркнута
@@ -100,14 +97,13 @@ def test_example(driver):
     campaign_price_color = campaign_price_color.lstrip('rgba(')
     campaign_price_color = campaign_price_color.split(',')
     campaign_price_color = list(campaign_price_color)
-    del campaign_price_color[-1]
     campaign_price_color = list(map(int, campaign_price_color))
     assert campaign_price_color[1] == 0 and campaign_price_color[2] == 0
 # Проверим что акционная цена жирная:
     campaign_price_text = driver.find_element_by_css_selector(".campaign-price").value_of_css_property("font-weight")
     campaign_price_text = int(campaign_price_text)
 # Для шрифтов, которые предоставляют только normal и bold начертания, 100-500 normal, и 600-900 bold.
-    assert campaign_price_text > 600 and campaign_price_text < 900
+    assert campaign_price_text > 599 and campaign_price_text < 901
 # Акционная цена крупнее, чем обычная
 # Найдем площадь для акционной цены
     campaign_price_size = driver.find_element_by_css_selector(".campaign-price").size

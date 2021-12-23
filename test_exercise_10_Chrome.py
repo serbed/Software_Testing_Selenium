@@ -1,4 +1,5 @@
 import pytest
+import decimal
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -51,18 +52,17 @@ def test_example(driver):
 # Для шрифтов, которые предоставляют только normal и bold начертания, 100-500 normal, и 600-900 bold.
     assert campaign_price_text > 599 and campaign_price_text < 901
 # Акционная цена крупнее, чем обычная
-# Найдем площадь для акционной цены
-    campaign_price_size = first_duck.find_element_by_css_selector(".campaign-price").size
-    cps_height = campaign_price_size.get('height')
-    cps_width = campaign_price_size.get('width')
-    cpa_area = cps_height * cps_width
-# Найдем площадь элемента обычноё цены цены
-    regular_price_size = first_duck.find_element_by_css_selector(".regular-price").size
-    rps_height = regular_price_size.get('height')
-    rps_width = regular_price_size.get('width')
-    rps_area = rps_height * rps_width
+# Найдем размер для акционной цены
+    campaign_price_size = first_duck.find_element_by_css_selector(".campaign-price").value_of_css_property("font-size")
+    campaign_price_size = campaign_price_size.rstrip("px")
+    campaign_price_size = int(campaign_price_size)
+# Найдем размер для обычной цены
+    regular_price_size = first_duck.find_element_by_css_selector(".regular-price").value_of_css_property("font-size")
+    regular_price_size = regular_price_size.rstrip("px")
+    print(regular_price_size)
+    regular_price_size = decimal.Decimal(regular_price_size)
 # Проверим что обычная цена меньше акционной
-    assert  rps_area < cpa_area
+    assert  regular_price_size < campaign_price_size
 # Перейдем на страницу товара
     btn = driver.find_element_by_css_selector("#box-campaigns .link")
     btn.click()
@@ -105,18 +105,18 @@ def test_example(driver):
 # Для шрифтов, которые предоставляют только normal и bold начертания, 100-500 normal, и 600-900 bold.
     assert campaign_price_text > 599 and campaign_price_text < 901
 # Акционная цена крупнее, чем обычная
-# Найдем площадь для акционной цены
-    campaign_price_size = driver.find_element_by_css_selector(".campaign-price").size
-    cps_height = campaign_price_size.get('height')
-    cps_width = campaign_price_size.get('width')
-    cpa_area = cps_height * cps_width
-# Найдем площадь элемента обычноё цены цены
-    regular_price_size = driver.find_element_by_css_selector(".regular-price").size
-    rps_height = regular_price_size.get('height')
-    rps_width = regular_price_size.get('width')
-    rps_area = rps_height * rps_width
+# Найдем размер для акционной цены
+    campaign_price_size = driver.find_element_by_css_selector(".campaign-price").value_of_css_property("font-size")
+    campaign_price_size = campaign_price_size.rstrip("px")
+    campaign_price_size = int(campaign_price_size)
+# Найдем размер для обычной цены
+    regular_price_size = driver.find_element_by_css_selector(".regular-price").value_of_css_property("font-size")
+    regular_price_size = regular_price_size.rstrip("px")
+    print(regular_price_size)
+    regular_price_size = decimal.Decimal(regular_price_size)
 # Проверим что обычная цена меньше акционной
-    assert rps_area < cpa_area
+    assert  regular_price_size < campaign_price_size
+
 
 
 

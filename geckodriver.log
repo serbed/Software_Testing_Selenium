@@ -116,3 +116,375 @@ JavaScript error: resource://gre/modules/Sqlite.jsm, line 996: Error: Connection
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1640516302558	geckodriver	INFO	Listening on 127.0.0.1:63436
+1640516306583	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63437" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileUbddEw"
+1640516331167	Marionette	INFO	Marionette enabled
+1640516352479	geckodriver	INFO	Listening on 127.0.0.1:61531
+1640516355571	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61532" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileWlz3I7"
+1640516356438	Marionette	INFO	Marionette enabled
+1640522730553	geckodriver	INFO	Listening on 127.0.0.1:56861
+1640522733654	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56862" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileK2LZQC"
+1640522737871	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileK2LZQC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56862/devtools/browser/363debc3-3328-4ba0-b21a-bb76b501403c
+1640522756176	Marionette	INFO	Listening on port 56872
+1640522756474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640522774431	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640522775026	Marionette	INFO	Stopped listening on port 56872
+[Parent 10508, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 10508, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1640523011344	geckodriver	INFO	Listening on 127.0.0.1:63593
+1640523014418	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63594" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileYMvoGD"
+1640523015198	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileYMvoGD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63594/devtools/browser/6bafd769-d109-4e79-83ea-599845e0854b
+1640523019704	Marionette	INFO	Listening on port 63602
+1640523020211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640523033874	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640523034734	Marionette	INFO	Stopped listening on port 63602
+1640523177386	geckodriver	INFO	Listening on 127.0.0.1:61731
+1640523180501	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61732" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofilea0rogp"
+1640523181267	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofilea0rogp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61732/devtools/browser/5996643f-ca84-4d1b-8d8b-1760c7c780f2
+1640523186232	Marionette	INFO	Listening on port 61745
+1640523187997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640523208926	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640523209649	Marionette	INFO	Stopped listening on port 61745
+1640523244056	geckodriver	INFO	Listening on 127.0.0.1:64674
+1640523247145	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64675" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileaDTL5W"
+1640523247836	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileaDTL5W\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64675/devtools/browser/5d4eed8c-77a1-4b65-b24a-75c1cb89baca
+1640523251998	Marionette	INFO	Listening on port 64686
+1640523252814	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640523261289	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640523261943	Marionette	INFO	Stopped listening on port 64686
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 19244, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1640523340031	geckodriver	INFO	Listening on 127.0.0.1:64032
+1640523343103	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64033" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileD72A0v"
+1640523343817	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileD72A0v\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64033/devtools/browser/66a6120b-7915-4936-b13a-63c877a632aa
+1640523348252	Marionette	INFO	Listening on port 64041
+1640523349308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640523355635	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640523356311	Marionette	INFO	Stopped listening on port 64041
+1640523410209	geckodriver	INFO	Listening on 127.0.0.1:52121
+1640523413284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52122" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofile5mxP4V"
+1640523414459	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofile5mxP4V\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52122/devtools/browser/96693132-56db-4981-b1ca-9cef90ac7d7c
+1640523418776	Marionette	INFO	Listening on port 52133
+1640523419896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640523426362	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640523427045	Marionette	INFO	Stopped listening on port 52133
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 8648, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  Message: Error: Data is not ready.
+  Stack:
+    get data@resource://gre/modules/JSONFile.jsm:186:13
+getListeners@resource://gre/modules/PushBroadcastService.jsm:66:5
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+1640523483913	geckodriver	INFO	Listening on 127.0.0.1:52293
+1640523487009	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52294" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileQbEp2i"
+1640523487614	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileQbEp2i\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52294/devtools/browser/c1ebf963-b4c0-42c8-b739-f44cbd93b9cf
+1640523491608	Marionette	INFO	Listening on port 52305
+1640523492481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640523498437	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640523499053	Marionette	INFO	Stopped listening on port 52305
+1640528780558	geckodriver	INFO	Listening on 127.0.0.1:54413
+1640528783662	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54414" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofile6DOLDS"
+1640528784733	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofile6DOLDS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54414/devtools/browser/5fa4d678-b203-440a-b09f-e6455107b357
+1640528791708	Marionette	INFO	Listening on port 54423
+1640528792337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640528804096	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640528804750	Marionette	INFO	Stopped listening on port 54423
+1640528872921	geckodriver	INFO	Listening on 127.0.0.1:65037
+1640528876004	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65038" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofilePkBejE"
+1640528876715	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofilePkBejE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65038/devtools/browser/cf8b8780-3a59-4a03-8bc5-044457225803
+1640528880772	Marionette	INFO	Listening on port 65047
+1640528881199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640528905452	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640528912119	Marionette	INFO	Stopped listening on port 65047
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+[Parent 14868, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1640528965099	geckodriver	INFO	Listening on 127.0.0.1:55102
+1640528968195	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55103" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofile9LLay1"
+1640528968944	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofile9LLay1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55103/devtools/browser/57661b08-4f03-4d85-bdd1-4fffc04e1b59
+1640528972987	Marionette	INFO	Listening on port 55110
+1640528973285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640528997631	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640529008314	Marionette	INFO	Stopped listening on port 55110
+1640529061254	geckodriver	INFO	Listening on 127.0.0.1:50180
+1640529064343	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50181" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofilevvBAAs"
+1640529064700	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofilevvBAAs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50181/devtools/browser/4e912f0f-2e3e-4785-b6b2-c73c07cfb034
+1640529068818	Marionette	INFO	Listening on port 63230
+1640529069911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640529123165	Marionette	INFO	Stopped listening on port 63230
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1640529142034	geckodriver	INFO	Listening on 127.0.0.1:57697
+1640529145107	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57698" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileQucRiP"
+1640529145485	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileQucRiP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57698/devtools/browser/0660fe4d-189a-4cfc-baa5-65c3b06ac2cc
+1640529149388	Marionette	INFO	Listening on port 57706
+1640529149962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640529177035	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640529187695	Marionette	INFO	Stopped listening on port 57706
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640529736572	geckodriver	INFO	Listening on 127.0.0.1:56930
+1640529739708	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56931" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileIiibSh"
+1640529742368	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileIiibSh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56931/devtools/browser/5915457c-da36-4fc6-8bc0-e4ccb4a9ab9c
+1640529765111	Marionette	INFO	Listening on port 56942
+1640529765950	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640529798105	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640529804924	Marionette	INFO	Stopped listening on port 56942
+1640529857294	geckodriver	INFO	Listening on 127.0.0.1:56427
+1640529860307	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56428" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileEcDJ6A"
+1640529861160	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileEcDJ6A\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56428/devtools/browser/90b65297-c9ac-43f6-8f20-9a4b1a338692
+1640529868199	Marionette	INFO	Listening on port 56456
+1640529871463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640529883101	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640529919504	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640529930268	Marionette	INFO	Stopped listening on port 56456
+[Parent 10420, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 10420, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1640529980041	geckodriver	INFO	Listening on 127.0.0.1:62452
+1640529983105	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62453" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileODuI45"
+1640529984461	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileODuI45\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62453/devtools/browser/bbf7bf40-5b84-46ca-8c64-a098de8ab335
+1640529989645	Marionette	INFO	Listening on port 62464
+1640529991860	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640530028301	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640530098810	Marionette	INFO	Stopped listening on port 62464
+[Parent 452, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 452, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1640530177703	geckodriver	INFO	Listening on 127.0.0.1:61666
+1640530180780	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61667" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileH74blq"
+1640530183986	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileH74blq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61667/devtools/browser/3c29bc5c-7704-4eab-b7d9-629e20f0151a
+1640530195321	Marionette	INFO	Listening on port 61674
+1640530196205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640530399549	geckodriver	INFO	Listening on 127.0.0.1:51481
+1640530402717	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51482" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileCbIqyE"
+1640530404543	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileCbIqyE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51482/devtools/browser/c16a9f89-ae6f-4cc0-a2da-2cdf0235e34a
+1640530410469	Marionette	INFO	Listening on port 51492
+1640530411592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640530448136	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1640530516797	geckodriver	INFO	Listening on 127.0.0.1:54854
+1640530519895	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54855" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofilexzjKUV"
+1640530520535	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofilexzjKUV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54855/devtools/browser/23d35dfc-058f-40a5-b270-c54be552f1cb
+1640530525594	Marionette	INFO	Listening on port 54864
+1640530526102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640530569193	Marionette	INFO	Stopped listening on port 54864
+[Parent 19404, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1640530877100	geckodriver	INFO	Listening on 127.0.0.1:61810
+1640530880210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61811" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofilePhevsU"
+1640530881207	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofilePhevsU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61811/devtools/browser/86874b34-5177-4846-83d5-45dbadba5598
+1640530885625	Marionette	INFO	Listening on port 61821
+1640530886800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640530888645	Marionette	INFO	Stopped listening on port 61821
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 950: Error: Connection is not open.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2541\"  data: no]"
+console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2541\"  data: no]"
+console.error: "Could not load engine yandex@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2541\"  data: no]"
+console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2541\"  data: no]"
+console.error: "Could not load engine priceru@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2541\"  data: no]"
+console.error: "Could not load engine mailru@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2541\"  data: no]"
+console.error: "Could not load engine ozonru@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2541\"  data: no]"
+console.warn: SearchService: "_init: abandoning init due to shutting down"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 828: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+RunWatchdog: Mainthread nested event loops during hang: 
+ --- (no nested event loop active)
+1640531341628	geckodriver	INFO	Listening on 127.0.0.1:56247
+1640531344970	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56248" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofilejnoWKs"
+1640531346570	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofilejnoWKs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56248/devtools/browser/b717fef2-d8f2-4a1c-aeaa-3fa60d34eff8
+1640531358811	Marionette	INFO	Listening on port 56259
+1640531359188	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640531405698	Marionette	INFO	Stopped listening on port 56259
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 7916, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1640531513298	geckodriver	INFO	Listening on 127.0.0.1:52989
+1640531516358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52990" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileoAfQId"
+1640531517602	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofileoAfQId\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52990/devtools/browser/09e527f0-2351-4c67-a797-c0ada3369f8b
+1640531522157	Marionette	INFO	Listening on port 52996
+1640531523043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640531585445	geckodriver	INFO	Listening on 127.0.0.1:57888
+1640531588540	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57889" "-no-remote" "-profile" "C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofilexhuqma"
+1640531589114	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sbd\\AppData\\Local\\Temp\\rust_mozprofilexhuqma\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57889/devtools/browser/5895dd2d-5f89-448d-adc4-af5f82da13b1
+1640531593770	Marionette	INFO	Listening on port 57897
+1640531594458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1640531622669	Marionette	INFO	Stopped listening on port 57897
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

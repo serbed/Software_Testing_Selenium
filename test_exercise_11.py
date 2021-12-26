@@ -1,14 +1,16 @@
 import pytest
+import time
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
 
 @pytest.fixture
 def driver(request):
-    wd = webdriver.Chrome()
-    wd.implicitly_wait(5)
+    wd = webdriver.Firefox(firefox_binary="C:\\Program Files\\Mozilla Firefox\\firefox.exe")
+    wd.implicitly_wait(15)
     request.addfinalizer(wd.quit)
     return wd
 
@@ -31,10 +33,13 @@ def test_example(driver):
 # Город
     city = driver.find_element_by_css_selector("input[name=city]")
     city.send_keys("Juneau")
-# Выберем из списка страну
-    country_list = driver.find_element_by_css_selector(".select2-hidden-accessible")
-    sel_country = Select(country_list)
-    sel_country.select_by_visible_text('United States')
+# Выберем страну
+    country = driver.find_element_by_css_selector(".select2-selection__rendered")
+    ActionChains(driver).move_to_element(country).click().perform()
+    find = driver.find_element_by_css_selector(".select2-search__field")
+    find.send_keys("united")
+    search_list = driver.find_element_by_xpath("//li[text()='United States']")
+    search_list.click()
 # Выберем штат
     zone_list = driver.find_element_by_css_selector("select[name=zone_code]")
     sel_zone = Select(zone_list)
@@ -57,9 +62,11 @@ def test_example(driver):
 # Создадим пользователя
     btn_create = driver.find_element_by_css_selector("button[type=submit]")
     btn_create.click()
+    time.sleep(3)
 # Разлогинимся
     link_logout = driver.find_element_by_css_selector("#box-account>.content li:nth-child(4)>a")
     link_logout.click()
+    time.sleep(3)
 # Введем email, пароль и залогинимся
     email_Address_window = driver.find_element_by_css_selector("input[name=email]")
     email_Address_window.send_keys(email)
@@ -67,9 +74,11 @@ def test_example(driver):
     password_window.send_keys(p)
     btn_login = driver.find_element_by_css_selector("button[name=login]")
     btn_login.click()
+    time.sleep(3)
 # Разлогинимся
     link_logout = driver.find_element_by_css_selector("#box-account>.content li:nth-child(4)>a")
     link_logout.click()
+    time.sleep(3)
 
 
 

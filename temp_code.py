@@ -61,6 +61,7 @@ def test_example(driver):
     l_sort.sort()
     assert l == l_sort
 
+    Firefox(firefox_binary="C:\\Program Files\\Mozilla Firefox\\firefox.exe")
 
 # Сравним цены
     campaigns_ducks = driver.find_element_by_css_selector("#box-campaigns>.content>ul")

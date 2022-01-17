@@ -20,7 +20,7 @@ def test_example(driver):
     list_count = 0
     wait = WebDriverWait(driver, 10)
     def check_by_xpath(xpath):
-        driver.implicitly_wait(1)
+        driver.implicitly_wait(0)
         try:
             driver.find_element_by_xpath(xpath)
         except NoSuchElementException:
@@ -45,14 +45,15 @@ def test_example(driver):
         driver.get("http://localhost/litecart")
     basket_btn = driver.find_element_by_xpath("//a[@class='content']")
     basket_btn.click()
+# //tr/td[@class='item']
+    ducks_len = len(driver.find_elements_by_xpath("//tr/td[@class='item']"))
     counter = 0
-    while (counter < 3):
+    while (counter < ducks_len):
         time.sleep(1)
         if check_by_xpath("//strong") == False:
             table_str = driver.find_element_by_xpath("//table[@class='dataTable rounded-corners']/tbody/tr[2]")
             remove_btn = driver.find_element_by_xpath("//button[@name='remove_cart_item']")
             remove_btn.click()
-            driver.refresh()
             wait.until(EC.staleness_of(table_str))
         else:
             pass
